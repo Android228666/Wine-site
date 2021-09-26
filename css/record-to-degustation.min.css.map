@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/record-to-degustation.scss"
+    ],
+    "names": [],
+    "file": "record-to-degustation.min.css"
+}

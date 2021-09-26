@@ -1,0 +1,117 @@
+.collection{
+    background: #E6E3C4;
+}
+
+.collection-container{
+    padding: 80px 0;
+}
+
+.flex{
+    display: flex;
+    margin: 60px 0;
+}
+
+.image-container{
+    margin-left: 125px;
+}
+
+.collection-line{
+    width: 1110px;
+    height: 1px;
+    background-color: $bg-color;
+}
+
+.collection-photo:not(:first-child){
+    margin-top: 30px;
+}
+
+.collection-photo:last-child{
+    margin-left: 25px;
+}
+
+.new-collection{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.collection-title{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: $section-bg-color;
+}
+
+.second-collection-line{
+    margin-top: 35px;
+    width: 160px;
+    height: 1px;
+    background: $section-bg-color;
+}
+
+.collection-text{
+    margin-top: 35px;
+    font-size: 14px;
+    line-height: 21px;
+    color: $section-bg-color;
+    width: 445px;
+}
+
+.collection-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.collection-item:nth-child(-n + 4){
+    border-bottom:1px solid $section-bg-color;
+}
+
+.collection-item:nth-child(2n){
+    border-left: 1px solid $section-bg-color;
+}
+
+.year{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 26px 24px;
+}
+
+.description{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottle-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: $section-bg-color;
+}
+
+.bottle-text{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    color: $section-bg-color;
+}
+
+.collection-button{
+    margin-top: 60px;
+    background: $bg-color;
+    border: none;
+    height: 50px;
+}
+
+.collection-button-text{
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+}

@@ -9,87 +9,112 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Wine-site</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <div>
-            <p>Новокузнечный переулок 4/1</p>
-            <p>8 (812) 123-45-67</p>
-            <ul>
-                <li>Каталог</li>
-                <li>Доставка</li>
-                <li>Коллекции</li>
-                <li>Контакты</li>
+        <div class="container header-container">
+            <div class="geodata-container">
+            <p class="geolocation">Новокузнечный переулок 4/1</p>
+            <p class="mobile">8 (812) 123-45-67</p>
+            </div>
+            <ul class="tab-list">
+                <li class="tab-item">Каталог</li>
+                <li class="tab-item">Доставка</li>
+                <li class="tab-item">Коллекции</li>
+                <li class="tab-item">Контакты</li>
             </ul>
-            <ul>
-                <button>
-                    <span>винная карта</span>
+            <ul class="button-list">
+                <button class="header-button">
+                    <span class="header-button-text">винная карта</span>
                 </button>
 
-                <button>
-                    <span>дегустация</span>
+                <button class="header-button">
+                    <span class="header-button-text">дегустация</span>
                 </button>
             </ul>
         </div>
     </header>
 
     <!-- BETTER-TASTE -->
-    <section>
-        <h2>Лучший вкус, это вкус долголетнего вина</h2>
-        <div></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
-        <img src="./images/goblet-photo.jpg" alt="goblet-photo">
+    <section class="better-taste">
+        <div class="container taste-container">
+        <h2 class="taste-title">Лучший вкус, это вкус долголетнего вина</h2>
+        <div class="taste-line"></div>
+        <p class="taste-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
+        <img class="taste-image" src="./images/goblet-photo.png" alt="goblet-photo">
+        </div>
     </section>
 
     <!-- Collection -->
-    <section>
-        <div>
-            <div></div>
-            <p>Новинки коллекций</p>
-            <h2>Март 1980</h2><br/>
-                Урожай Марселя</h2>
-            <div></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
-            <ul>
-                <li>1980</li>
-                <li>
-                    <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                    <p>Красочная бутылка вина из Марселя</p>
-                </li>
-                <li>1980</li>
-                <li>
-                    <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                    <p>Красочная бутылка вина из Марселя</p>
-                </li>
-                <li>1980</li>
-                <li>
-                    <h3>Colli Euganei Bianco Ca' Lustra 1980</h3>
-                    <p>Красочная бутылка вина из Марселя</p>
-                </li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
-            <button>
-                <span>узнать подробнее</span>
-            </button>
-            <div></div>
+    <section class="collection">
+        <div class="container collection-container">
+            <div class="collection-line"></div>
+            <div class="flex">
+                <div>
+                    <p class="new-collection">Новинки коллекций</p>
+                <h2 class="collection-title">Март 1980<br/>
+                    Урожай Марселя</h2>
+                <div class="second-collection-line"></div>
+                <p class="collection-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+                <ul class="collection-list">
+                    <li class="collection-item year">1980</li>
+                    <li class="collection-item description">
+                        <h3 class="bottle-title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                        <p class="bottle-text">Красочная бутылка вина из Марселя</p>
+                    </li>
+                    <li class="collection-item year">1980</li>
+                    <li class="collection-item description">
+                        <h3 class="bottle-title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                        <p class="bottle-text">Красочная бутылка вина из Марселя</p>
+                    </li>
+                    <li class="collection-item year">1980</li>
+                    <li class="collection-item description">
+                        <h3 class="bottle-title">Colli Euganei Bianco Ca' Lustra 1980</h3>
+                        <p class="bottle-text">Красочная бутылка вина из Марселя</p>
+                    </li>
+                </ul>
+                <p class="collection-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+                <button class="collection-button">
+                    <span class="collection-button-text">узнать подробнее</span>
+                </button>
+                </div>
+                <div class="image-container">
+                    <img class="collection-photo" src="./images/first-collection-photo.jpg" alt="">
+                    <img class="collection-photo" src="./images/second-collection-photo.jpg" alt="">
+                    <img class="collection-photo" src="./images/third-collection-photo.jpg" alt="">
+                </div>
+            </div>
+            <div class="collection-line"></div>
         </div>
     </section>
 
     <!-- RECORD-TO-DEGUSTATION -->
-    <section>
-        <h2>Запись на дегустацию</h2>
-        <div></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
-        <form action="">
-            <input type="text">
-            <input type="tel">
-            <input type="text">
-            <button>
-                <span>записаться</span>
+    <section class="deg-section">
+        <div class="container deg-container">
+            <div class="left-border-line"></div>
+            <div class="right-border-line"></div>
+            <div class="left-line"></div>
+            <div class="right-line"></div>
+            <div class="vertical-line"></div>
+            <img class="grape-image" src="./images/grape.png" alt="grape-photo">
+            <img class="barell-image" src="./images/barell.png" alt="barell-photo">
+            <h2 class="deg-title">Запись на дегустацию</h2>
+        <div class="deg-line"></div>
+        <p class="deg-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
+        <form action="" class="deg-form">
+            <input class="name-input" type="text" placeholder="Имя">
+            <input class="mobile-input" type="tel" placeholder="Телефон">
+            <input class="place-input" type="text" placeholder="Бутик на Невском 103">
+            <button class="deg-button">
+                <span class="deg-button-text">записаться</span>
             </button>
         </form>
+        </div>
     </section>
 
     <!-- FOOTER -->
