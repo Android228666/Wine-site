@@ -48,7 +48,7 @@
     height: 30px;
     background: none;
     border-bottom: 1px solid #ffffff;
-    color: $bg-color;
+    color: #ffffff;
 }
 
 .name-input::placeholder,
@@ -67,7 +67,7 @@
     margin-left: 25px;
     background: none;
     border-bottom: 1px solid #ffffff;
-    color: $bg-color;
+    color: #ffffff;
 }
 
 .place-input{
@@ -76,7 +76,7 @@
     height: 30px;
     background: none;
     border-bottom: 1px solid #ffffff;
-    color: $bg-color;
+    color: #ffffff;
 }
 
 .deg-button{
@@ -105,14 +105,14 @@
 
 .barell-image{
     position: absolute;
-    left: 1150px;
+    left: 1235px;
     // top: 1973px;
     top: 2850px;
 }
 
 .left-border-line{
     position: absolute;
-    left: 565px;
+    left: 660px;
     top: 2915px;
     width: 70px;
     height: 3px;
@@ -121,7 +121,7 @@
 
 .right-border-line{
     position: absolute;
-    left: 1085px;
+    left: 1167px;
     top: 2915px;
     width: 70px;
     height: 3px;
@@ -132,7 +132,7 @@
     position: absolute;
     top: 3105px;
     width: 3px;
-    left: 335px;
+    left: 445px;
     height: 350px;
     background: #ffffff;
 }
@@ -141,7 +141,7 @@
     position: absolute;
     top: 3051px;
     width: 3px;
-    left: 1350px;
+    left: 1460px;
     height: 404px;
     background: #ffffff;
 }
@@ -149,7 +149,7 @@
 .vertical-line{
     position: absolute;
     top: 3455px;
-    left: 335px;
+    left: 445px;
     width: 1018px;
     height: 3px;
     background: #ffffff;
